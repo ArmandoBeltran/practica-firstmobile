@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+
+.barraFont{
+    color: white !important;
+    letter-spacing: 2px;
+}
+.espacio{
+    margin-right: 10%;
+}
+.espacioLogo{
+    margin-left: 10%;
+}
+
+h3{
+    color: white;
+}
+
+.fa-clock{
+    color: rgb(247, 192, 14);
+}
+.fa-piggy-bank{
+    color: rgb(238, 39, 178);
+}
+.fa-trophy{
+    color: rgb(255, 238, 0);
+}
+.fa-lightbulb{
+    color: rgb(255, 230, 0);
+}
+
+.iconos{
+    justify-content: center;
+}
+.iconos i{
+    padding: 10px;
+    font-size: 60px;
+}
+.iconos h4{
+    padding: 10px;
+}
+
+.fa-project-diagram{
+    color: rgb(0, 81, 255);
+}
+.fa-signal{
+    color: rgb(240, 9, 9);
+}
+.fa-play{
+    color: rgb(0, 255, 191);
+}
+
+.row{
+    margin: 0;
+}
+
+.col-sm-6{
+    padding: 0;
+}
+
+.nombre-empleado{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-80%);
+}
+
+.empleado{
+    width: 100%;
+    height: 100%;
+}
+
+.requisitos{
+    padding: 10px;
+}
+.requisitos i{
+    font-size: 50px;
+    padding: 10px;
+}
+.requisitos p{
+    font-size: 20px;
+}
+
+#footer i{
+    font-size: 30px;
+    padding: 10px;
+}
+#footer li{
+    padding: 10px;
+}
+
+.fa-facebook-f{
+    color: rgb(4, 53, 187);
+}
+.fa-twitter{
+    color: rgb(9, 137, 250);
+}
+.fa-instagram{
+    color: rgb(189, 9, 9);
+}
+.fa-linkedin-in{
+    color: #fff;
+}
+
+.redes{
+    padding: 25px;
+}
+
+.by{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #fff;
+    color: #fff;
+}
+
+/**Discriminación de contenidos**/
+@media (max-width:1000px) {
+    #carrusel{
+        display: none;
+    }
+    .iconos{
+        margin-top: 10%;
+    }
+    .iconos i{
+        font-size: 50px;
+    }
+    .iconos h4{
+        font-size: 20px;
+    }
+    .footer-menu{
+        display: none;
+    }
+    .footer-iconos{
+        justify-content: center !important;
+        margin-left: 19%;
+    }
+    @media (max-width:800px){
+        .iconos{
+            margin-top: 13%;
+        }
+        .iconos i{
+            font-size: 35px;
+        }
+        .iconos h4{
+            font-size: 16px;
+        }
+        @media (max-width:665px){
+            .iconos i{
+                font-size: 30px;
+            }
+            .iconos h4{
+                font-size: 13px;
+            }
+
+            @media (max-width:576px) {
+                .iconos{
+                    margin-top: 20%;
+                }
+                .iconos i{
+                    font-size: 60px;
+                }
+                .iconos h4{
+                    font-size: 25px;
+                }
+                .footer-iconos{
+                    text-align: center !important;
+                    margin-left: 3%;
+                }
+            }
+        }
+        
+    }
+
+    
+    
+}
+
+

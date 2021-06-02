@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <!--Booststrap-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="icon" href="imgs/bolsa-de-valores.svg">
+</head>
+<body>
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-success fixed-top">
+            <div class="navbar-header espacioLogo">
+                <a class="navbar-brand" href="index.html"><i class="fas fa-draw-polygon" style="color: aliceblue; font-size: 40px;"></i></a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Mimenu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="Mimenu">
+                <ul class="navbar-nav justify-content-end ml-auto espacio">
+                    <li class="nav-item"><a href="#" class="nav-link barraFont">Products</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link barraFont">Pricing</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link barraFont">Solutions</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link barraFont">Support</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link barraFont">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--Carrusel-->
+    <section id="carrusel" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#carrusel" data-slide-to="0" class="active"></li>
+            <li data-target="#carrusel" data-slide-to="1"></li>
+            <li data-target="#carrusel" data-slide-to="2"></li>
+            <li data-target="#carrusel" data-slide-to="4"></li>
+        </ul>
+        
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imgs/trabajo1.jpg" alt="Imagen 1 del slider" style="width:100%; height:750px;">
+                <div class="carousel-caption">
+                    <h3>Trabaja</h3>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="imgs/trabajo2.jpg" alt="Imagen 2 del slider" style="width:100%; height:750px;">
+                <div class="carousel-caption">
+                    <h3>Organiza</h3>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="imgs/trabajo3.jpg" alt="Imagen 3 del slider" style="width:100%; height:750px;">
+                <div class="carousel-caption">
+                    <h3>Crece</h3>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="imgs/trabajo4.jpg" alt="Imagen 4 del slider" style="width:100%; height:750px;">
+                <div class="carousel-caption">
+                    <h3>Genera</h3>
+                </div>
+            </div>
+        </div>
+        <!--recorrido-->
+        <a class="carousel-control-prev" href="#carrusel" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+        <a class="carousel-control-next" href="#carrusel" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+    </section>
+
+    <!--Sección de íconos e información-->
+    <section class="container-fluid" id="servicios">
+        <div class="row text-center iconos">
+            <div class="col-sm-2">
+                <i class="fas fa-clock"></i>
+                <h4>Seguimiento personalizado</h4>
+            </div>
+            <div class="col-sm-2">
+                <i class="fas fa-piggy-bank"></i>
+                <h4>Encuentra un contrato laboral</h4>
+            </div>
+            <div class="col-sm-2">  
+                <i class="fas fa-trophy"></i>
+                <h4>Ofertas de empleo</h4>
+            </div>
+            <div class="col-sm-2">
+                <i class="fas fa-mobile-alt"></i>
+                <h4>Servicio interactivo</h4>
+            </div>
+            <div class="col-sm-2">
+                <i class="fas fa-lightbulb"></i>
+                <h4>Acceso a vacantes existentes</h4>
+            </div>
+        </div>
+        <div class="text-center informacion">
+            <div class="col-sm-12">
+                <h2>Servicios que se ofrecen</h2>
+                <p>A través de esta bolsa de trabajo los usuarios pueden disfrutar de un servicio interactivo que se produce entre los ofertantes 
+                    y los demandantes de empleo. Una manera muy rápida, fácil y cómoda de acceder a todas las ofertas de empleo disponibles y los 
+                    puestos de trabajo vacantes existentes en un determinado momento.
+                    
+                    Tenemos un plan de seguimiento personalizado para tu búsqueda de empleo. Lo ideal es que especifiques varias opciones similares 
+                    para que las empresas que accedan a tu perfil descubran que buscas un empleo determinado en un sector. Es una buena manera de 
+                    demostrar que estás capacitado para ese tipo de trabajo. Precisamente, hay bolsas de trabajo que se centran en ciertos tipos de 
+                    puestos laborales. 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--Sección de imagenes-->
+    <section class="row empleados" id="empleados">
+        <div class="col-sm-6">
+            <img class="empleado" src="imgs/persona1.jpg" alt="Empleado 1">
+            <h3 class="nombre-empleado">Karina</h3>
+        </div>
+        <div class="col-sm-6 row">
+            <div class="col-sm-6">
+                <img class="empleado" src="imgs/persona2.jpg" alt="Empleado 1">
+                <h3 class="nombre-empleado">José</h3>
+            </div>
+            <div class="col-sm-6">
+                <img class="empleado" src="imgs/persona3.jpg" alt="Empleado 1">
+                <h3 class="nombre-empleado">Natalia</h3>
+            </div>
+            <div class="col-sm-6">
+                <img class="empleado" src="imgs/persona4.jpg" alt="Empleado 1">
+                <h3 class="nombre-empleado">Juan</h3>
+            </div>
+            <div class="col-sm-6">
+                <img class="empleado" src="imgs/persona5.jpg" alt="Empleado 1">
+                <h3 class="nombre-empleado">Alberto</h3>
+            </div>
+        </div>
+    </section>
+
+    <!--Sección de información post-imgs-->
+    <section class="container-fluid" id="requisitos">
+        <div class="text-center row requisitos">
+            <div class="col-sm-12">
+                <h2>¿Cómo conseguir trabajo con nosotros?</h2>
+            </div>
+            <div class="col-sm-4">
+                <i class="fas fa-project-diagram"></i>
+                <p>Estar inscrito en esta bolsa de trabajo como demandante de empleo</p>
+            </div>
+            <div class="col-sm-4">
+                <i class="fas fa-signal"></i>
+                <p>Sube tu currículum para que las empresas conozcan tus capacidades</p>
+            </div>
+            <div class="col-sm-4">
+                <i class="fas fa-play"></i>
+                <p>De forma periódica y gratuita te enviaremos diferentes ofertas laborales</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid bg-dark page-footer" id="footer">
+        <div class="container redes">
+            <div class="row">
+                <div class="col-sm-6 footer-menu">
+                    <ul class="nav navbar-expand-sm espacio" data-toggle="tooltip">
+                        <li class="nav-item"><a href="#" class="nav-link barraFont">Products</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link barraFont">Pricing</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link barraFont">Solutions</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link barraFont">Support</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link barraFont">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 text-right footer-iconos">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://mx.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="by">
+            Elaborado por Luis Armando Beltrán Martínez<br>
+            Para la materia de Aplicaciones Web<br>
+            EVN301
+        </div>
+    </footer>
+</body>
+</html>
